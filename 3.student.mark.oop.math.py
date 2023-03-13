@@ -109,7 +109,7 @@ class MarkStudent:
         def gpa(temp):
             back = []
             x = 0
-            a = arr[temp:4:num_courses] #[10 12] and [11 13]
+            a = arr[temp:len(arr):num_courses] #[10 12] and [11 13]
             for i in range(0,len(a)):
                 for j in range(0,len(arr1)):
                     if i == j:
